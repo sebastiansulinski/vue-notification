@@ -1,4 +1,4 @@
-# Js Notification
+# Vue Notification
 
 Component for displaying notifications with help of also included Vuex module.
 
@@ -7,7 +7,7 @@ Component for displaying notifications with help of also included Vuex module.
 ## Installation
 
 ```bash
-npm install -D @ssdcode/js-notification
+npm install -D @ssdcode/vue-notification
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ First register the module with your vuex store - there are 2 options:
 ```javascript
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { notification } from '@ssdcode/js-notification';
+import { notification } from '@ssdcode/vue-notification';
 
 Vue.use(Vuex);
 
@@ -33,7 +33,7 @@ export default new Vuex.Store({
 ```javascript
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { notifications } from '@ssdcode/js-notification';
+import { notifications } from '@ssdcode/vue-notification';
 
 Vue.use(Vuex);
 
@@ -45,7 +45,7 @@ export default new Vuex.Store({
 Register `NotificationContainer` component and add it to your application's html structure.
 
 ```javascript
-import NotificationContainer from '@ssdcode/js-notification';
+import NotificationContainer from '@ssdcode/vue-notification';
 
 
 new Vue({

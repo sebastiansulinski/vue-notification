@@ -1,12 +1,24 @@
 {
-  "name": "@ssdcode/js-notification",
+  "name": "@ssdcode/vue-notification",
   "version": "0.1.0",
+  "description": "Component for displaying notifications with help of also included Vuex module",
+  "main": "./src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
+  "keywords": [
+    "vue notification component"
+  ],
+  "author": "Sebastian Sulinski <info@ssdtutorials.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastiansulinski/vue-notification.git"
+  },
+  "homepage": "https://github.com/sebastiansulinski/vue-notification#readme",
   "dependencies": {
     "@vue/composition-api": "^0.6.2",
     "core-js": "^3.6.5",
@@ -28,5 +40,8 @@
     "prettier": "^1.19.1",
     "tailwindcss": "^1.4.6",
     "vue-template-compiler": "^2.6.11"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
