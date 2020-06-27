@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/sebastiansulinski/vue-notification#readme",
   "dependencies": {
-    "@vue/composition-api": "^0.6.2",
+    "@vue/composition-api": "^0.6.7",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vuex": "^3.4.0"
