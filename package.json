@@ -1,6 +1,6 @@
 {
   "name": "@ssdcode/vue-notification",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Component for displaying notifications with help of also included Vuex module",
   "main": "./src/index.js",
   "scripts": {
