@@ -38,14 +38,14 @@ import { notifications } from '@ssdcode/vue-notification';
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  modules: { notifications },
+  modules: { notification: notifications },
 });
 ```
 
 Register `NotificationContainer` component and add it to your application's html structure.
 
 ```javascript
-import NotificationContainer from '@ssdcode/vue-notification';
+import { NotificationContainer } from '@ssdcode/vue-notification';
 
 
 new Vue({
